@@ -1,0 +1,22 @@
+{
+  "name": "es-ts",
+  "version": "1.0.0",
+  "description": "Log ingestion with ES",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cw-es-ts"
+  },
+  "author": "redlash",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4"
+  }
+}
